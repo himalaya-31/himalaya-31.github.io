@@ -17,6 +17,44 @@ body {
     background-position: 50% 50%;
 }
 
+.social-accounts {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 42%;
+}
+
+.social-accounts ul {
+    width: auto;
+    list-style-type: none;
+}
+
+.social-accounts ul li {
+    width: auto;
+    text-align: center;
+}
+
+.social-accounts ul li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 22px;
+    padding-top: 2px;
+}
+
+.social-icon-github {
+    background-color: #24292e;
+}
+
+.social-icon-linkedin {
+    background-color: #0077B5;
+}
+
+.social-icon-facebook {
+    background-color: #3b5a9a;
+}
+
 #nav {
     border: none;
     border-radius: 0;
@@ -53,8 +91,15 @@ body {
 
 .head-name {
     color: #2F2FCF;
-    font-size: 3em;
+    font-size: 3.5em;
     margin-top: 10px;
     font-weight: bold;
+    text-align: center;
+}
+
+.interest {
+    font: 2em;
+    margin-top: 10px;
+    font-weight: lighter;
     text-align: center;
 }
