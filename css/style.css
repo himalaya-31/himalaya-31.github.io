@@ -25,9 +25,35 @@ body {
 .social-accounts {
     position: fixed;
     z-index: 1;
-    right: 0;
     top: 42%;
+    right: 0px;
 }
+
+/*.social-acc-anim-1 {
+    animation: anim1 linear infinite;
+}
+
+@keyframes anim1 {
+    from {
+        right: 0;
+    }
+    to {
+        right: -80px;
+    }
+}
+
+.social-acc-anim-2 {
+    animation: anim2 linear infinite;
+}
+
+@keyframes anim2 {
+    from {
+        right: -80px;
+    }
+    to {
+        right: 0px;
+    }
+}*/
 
 .social-accounts ul {
     width: auto;
@@ -363,4 +389,13 @@ section {
   .right {
     left: 0%;
   }
+
+  .interest {
+      font-size: 18px;
+  }
+
+  .current-status {
+      font-size: 15px;
+  }
+
 }
