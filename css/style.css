@@ -231,9 +231,10 @@ section {
     top: 20px;
     border-radius: 50%;
     z-index: 1;
+    background-color: #C0C0C0;
 }
 
-.timeline-container-1::after {
+/*.timeline-container-1::after {
     background-color: #EE82EE;
 }
 
@@ -257,6 +258,10 @@ section {
     background-color: #DC143C;
 }
 
+.timeline-container-7::after {
+    background-color: #00B09E;
+}*/
+
 /* Place the container to the left */
 .left {
   left: 0;
@@ -278,9 +283,14 @@ section {
   right: 30px;
   border: medium solid white;
   border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #C0C0C0;
 }
 
-.timeline-container-1::before {
+.exp-head {
+    background-color: #C0C0C0;
+}
+
+/*.timeline-container-1::before {
     border-color: transparent transparent transparent #EE82EE;
 }
 
@@ -304,6 +314,10 @@ section {
     background-color: #DC143C;
 }
 
+.timeline-container-7 .exp-head {
+    background-color: #00B09E;
+}*/
+
 /* Add arrows to the right container (pointing left) */
 .right::before {
   content: " ";
@@ -315,14 +329,15 @@ section {
   left: 30px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
+  border-color: transparent #C0C0C0 transparent transparent;
 }
 
-.timeline-container-2::before {
+/*.timeline-container-2::before {
     border-color: transparent #4B0082 transparent transparent;
 }
 
 .timeline-container-2 .exp-head {
-    background-color: #4B0082;
+    background-color: #C0C0C0;
 }
 
 .timeline-container-3::before {
@@ -340,6 +355,10 @@ section {
 .timeline-container-6::before {
     border-color: transparent #DC143C transparent transparent;
 }
+
+.timeline-container-7::before {
+    border-color: transparent transparent transparent #00B09E;
+}*/
 
 /* Fix the circle for containers on the right side */
 .right::after {
@@ -413,9 +432,10 @@ section {
     left: 60px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
+    border-color: transparent #C0C0C0 transparent transparent;
   }
 
-  .timeline-container-1::before {
+  /*.timeline-container-1::before {
       border-color: transparent #EE82EE transparent transparent;
   }
 
@@ -438,6 +458,10 @@ section {
   .timeline-container-6::before {
       border-color: transparent #DC143C transparent transparent;
   }
+
+  .timeline-container-7::before {
+      border-color: transparent #00B09E transparent transparent;
+  }*/
 
 /* Make sure all circles are at the same spot */
   .left::after, .right::after {
