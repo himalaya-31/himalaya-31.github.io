@@ -549,3 +549,123 @@ section {
     width: 100px;
     font-weight: 600;
 }
+
+footer {
+    padding: 50px 0;
+    background: rgba(18, 17, 16, 0.9);
+    color: #fff;
+}
+
+footer h2 {
+    font-weight: bolder;
+}
+
+textarea {
+    resize: none;
+}
+
+#say-hello-form input::-webkit-input-placeholder { /* Chrome */
+  color: #fff;
+}
+#say-hello-form input:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+#say-hello-form input::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+  opacity: 1;
+}
+#say-hello-form input:-moz-placeholder { /* Firefox 4 - 18 */
+  color: red;
+  opacity: 1;
+}
+
+#say-hello-form textarea::-webkit-input-placeholder { /* Chrome */
+  color: #fff;
+}
+#say-hello-form textarea:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+#say-hello-form textarea::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+  opacity: 1;
+}
+#say-hello-form textarea:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #fff;
+  opacity: 1;
+}
+
+.button-cls {
+    margin-top: 20px;
+}
+
+.button-cls button {
+    padding: 10px 30px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 35px;
+}
+
+#say-hello-form input, textarea {
+    width: 100%;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+
+input:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+.feature-box {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.feature-box .custom-feature-box-icon {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    margin-right: 20px;
+    border: 1px solid #454441;
+    padding: 10px 0;
+}
+
+.feature-box .feature-box-info {
+    display: inline-block;
+    font-size: 1em;
+    color: #fff;
+}
+
+.feature-box .custom-feature-box-icon i {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 20px 10px;
+}
+
+.feature-box-info a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.border-left-right {
+    border-left: 1px solid #454441;
+    border-right: 1px solid #454441;
+    padding: 0 20px;
+    margin: 0 13px;
+}
+
+a:active {
+    text-decoration: none;
+}
