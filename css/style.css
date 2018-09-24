@@ -482,3 +482,70 @@ section {
   }
 
 }
+
+#skills-lang {
+    background: #fff;
+    padding: 40px 0;
+}
+
+#skills-lang h2 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.custom-progress-bars {
+    margin: 10px 0;
+}
+
+.custom-progress-bars::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.custom-progress-bars .progress-label {
+    font-weight: 600 !important;
+    float: left;
+    width: 30%;
+}
+
+.custom-progress-bars .myProgress {
+    float: left;
+    width: 70%;
+    background: #ddd;
+    margin-top: 8px;
+}
+
+.custom-progress-bars .myProgress .myBar {
+    height: 3px;
+    background-color: #2e353e;
+}
+
+.col-2 {
+    margin-top: 84px;
+}
+
+.lang-box {
+    background-color: #fff;
+    padding: 35px;
+    box-shadow: 0px 30px 120px 0px #dde5ee;
+    margin-top: 20px;
+}
+
+#skills-lang ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills-lang ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+#skills-lang .lang-label {
+    display: inline-block;
+    width: 100px;
+    font-weight: 600;
+}
