@@ -202,7 +202,7 @@ section {
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
    content: '';
-   height: 90%;
+   height: 100%;
    width: 1px;
    border-left: 7px dotted #909090;
    transform: translatex(-50%);
