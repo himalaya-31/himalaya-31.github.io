@@ -234,15 +234,27 @@ section {
 }
 
 .timeline-container-1::after {
-    background-color: #01C0F7;
+    background-color: #EE82EE;
 }
 
 .timeline-container-2::after {
-    background-color: #0076B0;
+    background-color: #4B0082;
 }
 
 .timeline-container-3::after {
+    background-color: #01C0F7;
+}
+
+.timeline-container-4::after {
     background-color: #ffd93e;
+}
+
+.timeline-container-5::after {
+    background-color: #32CD32;
+}
+
+.timeline-container-6::after {
+    background-color: #DC143C;
 }
 
 /* Place the container to the left */
@@ -269,15 +281,27 @@ section {
 }
 
 .timeline-container-1::before {
-    border-color: transparent transparent transparent #01C0F7;
+    border-color: transparent transparent transparent #EE82EE;
 }
 
 .timeline-container-1 .exp-head {
-    background-color: #01C0F7;
+    background-color: #EE82EE;
 }
 
 .timeline-container-3 .exp-head {
+    background-color: #01C0F7;
+}
+
+.timeline-container-4 .exp-head {
     background-color: #ffd93e;
+}
+
+.timeline-container-5 .exp-head {
+    background-color: #32CD32;
+}
+
+.timeline-container-6 .exp-head {
+    background-color: #DC143C;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -294,15 +318,27 @@ section {
 }
 
 .timeline-container-2::before {
-    border-color: transparent #0076B0 transparent transparent;
+    border-color: transparent #4B0082 transparent transparent;
 }
 
 .timeline-container-2 .exp-head {
-    background-color: #0076B0;
+    background-color: #4B0082;
 }
 
 .timeline-container-3::before {
-    border-color: transparent transparent transparent #ffd93e;
+    border-color: transparent transparent transparent #01C0F7;
+}
+
+.timeline-container-4::before {
+    border-color: transparent #ffd93e transparent transparent;
+}
+
+.timeline-container-5::before {
+    border-color: transparent transparent transparent #32CD32;
+}
+
+.timeline-container-6::before {
+    border-color: transparent #DC143C transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -377,7 +413,30 @@ section {
     left: 60px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+  }
+
+  .timeline-container-1::before {
+      border-color: transparent #EE82EE transparent transparent;
+  }
+
+  .timeline-container-2::before {
+      border-color: transparent #4B0082 transparent transparent;
+  }
+
+  .timeline-container-3::before {
+      border-color: transparent #01C0F7 transparent transparent;
+  }
+
+  .timeline-container-4::before {
+      border-color: transparent #ffd93e transparent transparent;
+  }
+
+  .timeline-container-5::before {
+      border-color: transparent #32CD32 transparent transparent;
+  }
+
+  .timeline-container-6::before {
+      border-color: transparent #DC143C transparent transparent;
   }
 
 /* Make sure all circles are at the same spot */
