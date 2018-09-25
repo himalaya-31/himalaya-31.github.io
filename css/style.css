@@ -628,8 +628,9 @@ footer a:hover {
 }
 
 .feature-box {
-    width: 100%;
-    margin: 30px 0;
+    display: inline-block;
+    width: 60%;
+    margin: 20px 0;
 }
 
 .feature-box .custom-feature-box-icon {
@@ -668,4 +669,18 @@ footer a:hover {
 
 a:active {
     text-decoration: none;
+}
+
+.last {
+    width: 70%;
+}
+
+@media (max-width: 1200px) {
+    .feature-box {
+        width: 100%;
+    }
+
+    .last {
+        width: 100%;
+    }
 }
